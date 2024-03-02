@@ -2,14 +2,26 @@
 '''
 Q1: 
 '''
-
+random = {
+    "Calvin":100,
+    "Ben": 98
+}
+print(random["Ben"])
 # TODO: Write your code here
 
 ##################################################
 '''
 Q2:
 '''
+student = {
+   'name': 'Harry',
+   'score': 80,
+   'house': 'slytherin'
+}
 
+print(student['Harry'])   # Harry
+print(student['80'])  # 80
+print(student['slytherin'])  # Error
 # TODO: Write your code here
 
 ##################################################
